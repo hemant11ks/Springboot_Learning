@@ -1,0 +1,42 @@
+Docker Use case:
+
+1. Portability
+2. Efficiency
+3. Scalability
+4. Isolation
+5  Faster Development
+
+-----------------------------------------------------------------------------------
+
+Container -> Python | Java | Own Application.
+Image -> Every thing need to run the container.
+Dockerfile -> A script which define how an image is built.
+Docker Compose -> A tool for defining and running the multi container applications.
+
+------------------------------------------------------------------------------------
+
+Registry:
+A repository for storing and distributing Docker images example -> Docker Hub.
+
+------------------------------------------------------------------------------------
+Commands:
+ls
+docker compose up -d
+docker compose ps
+docker compose logs
+docker compose logs
+docker exec--it postgress-spring-boot bash
+postgres=# create database hemant;
+postgres=# \c hemant
+
+------------------------------------------------------------------------------------
+
+Spring Data JPA: is a framework that simplifies database interactions in Spring Applications by providing High level
+abstraction over JPA reducing the boilerplate code and enabling easy implementation of CRUD Application.
+
+id | name | tech stack -> Making them into blocks into the DB.
+
+------------------------------------------------------------------------------------
+
+
+
